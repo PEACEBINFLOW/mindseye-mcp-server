@@ -1,0 +1,21 @@
+{
+  "name": "mindseye-mcp-server",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@sentry/cloudflare": "^7.95.0",
+    "@sentry/node": "^7.95.0",
+    "@modelcontextprotocol/sdk": "^0.1.0", 
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1"
+  }
+}
